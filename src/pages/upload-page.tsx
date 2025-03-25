@@ -20,7 +20,7 @@ export default function UploadPage() {
   };
 
   return (
-    <div>
+    <div className="container mx-auto">
       <Formik
         initialValues={initialValues}
         onSubmit={submitHanle}
@@ -36,7 +36,7 @@ export default function UploadPage() {
           };
 
           return (
-            <Form className="w-[600px] mx-auto py-8">
+            <Form className="max-w-xl mx-auto px-4">
               <StepHeader
                 step={values.step}
                 lastStep={values.lastStep}

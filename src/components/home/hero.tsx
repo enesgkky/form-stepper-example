@@ -10,7 +10,7 @@ const Hero = () => {
               <h1 className="mt-5 text-4xl font-bold leading-tight sm:text-5xl sm:leading-tight lg:text-6xl lg:leading-tight font-pj">
                 Gittiğin Yerleri Paylaş, Dünyaya İlham Ol!
               </h1>
-              <p className="max-w-md mx-auto mt-6 text-base leading-7 font-inter">
+              <p className="max-w-xl mx-auto mt-6 text-base leading-7 font-inter">
                 Keşfettiğin şehirleri ve mekanları paylaş, gezginler için benzersiz bir veri kaynağı oluştur.
                 Anılarını fotoğraflarla ölümsüzleştir ve diğer gezginlere ilham ver!
               </p>

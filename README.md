@@ -1,6 +1,6 @@
 # Form Stepper Example
 
-![Form Stepper](https://user-images.githubusercontent.com/your-image.png)
+![Form Stepper](./preview.png)
 
 Form adımlama yapısını yönetmek için geliştirilmiş modern ve şık bir React uygulaması.
 
@@ -21,14 +21,14 @@ Bu proje aşağıdaki teknolojileri kullanarak geliştirilmiştir:
 
 ## 📸 Önizleme
 
-![Form Stepper Demo](https://user-images.githubusercontent.com/your-demo.gif)
+![Form Stepper Demo](./preview.gif)
 
 ## 📦 Kurulum
 
 Projeyi çalıştırmak için aşağıdaki adımları takip edebilirsin:
 
 ```bash
-git clone https://github.com/username/form-stepper-example.git
+git clone https://github.com/enesgkky/form-stepper-example.git
 cd form-stepper-example
 yarn install # veya npm install
 yarn dev # veya npm run dev
@@ -52,7 +52,7 @@ Form, belirli adımlara göre ilerler ve her adımda farklı doğrulama kurallar
 import * as Yup from "yup";
 
 export const formValidation = Yup.object().shape({
-  
+
   /*
    * @param step: number
    * Step'i normalde schema'da tanımlamamıza gerek yok ama when fonksiyonu
@@ -126,9 +126,9 @@ export const formValidation = Yup.object().shape({
 
 ## 🌟 Katkıda Bulunma
 
-Bu projeye katkıda bulunmak isterseniz, **pull request** açabilirsiniz. Hataları bildirmek için [issues](https://github.com/username/form-stepper-example/issues) sekmesini kullanabilirsiniz.
+Bu projeye katkıda bulunmak isterseniz, **pull request** açabilirsiniz. Hataları bildirmek için [issues](https://github.com/enesgkky/form-stepper-example/issues) sekmesini kullanabilirsiniz.
 
 ---
 
-**📌 Repo:** [form-stepper-example](https://github.com/username/form-stepper-example)  
-**🚀 Geliştirici:** [@your-github](https://github.com/your-github)
+**📌 Repo:** [form-stepper-example](https://github.com/enesgkky/form-stepper-example)  
+**🚀 Geliştirici:** [@enesgkky](https://github.com/enesgkky)
