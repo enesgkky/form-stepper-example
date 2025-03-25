@@ -2,6 +2,12 @@ import * as Yup from 'yup';
 
 export const formValidation = Yup.object().shape({
 
+    /*
+    * @param step: number
+    * Step'i normalde schema'da tanımlamamıza gerek yok ama when fonksiyonu
+    * ile step'e göre validasyon yapacağımız için tanımlıyoruz.
+    */
+
     step: Yup.number().required(),
 
     // Step 1
